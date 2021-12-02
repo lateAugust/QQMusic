@@ -1,6 +1,6 @@
 module.exports = (isDev) => {
-    return {
-        preserveWhiteSpace: true,
-        extract: !isDev
-    };
+  return {
+    preserveWhiteSpace: true,
+    extract: !isDev
+  };
 };

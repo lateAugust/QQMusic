@@ -54,8 +54,8 @@ Vue.component('SearchPages', SearchPages);
 Vue.prototype.$ = Jquery;
 
 new Vue({
-    el: '#app',
-    router,
-    store,
-    render: (h) => h(App)
+  el: '#app',
+  router,
+  store,
+  render: (h) => h(App)
 });

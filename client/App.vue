@@ -1,17 +1,17 @@
 <template>
-    <div class="app">
-        <router-view />
-    </div>
+  <div class="app">
+    <router-view />
+  </div>
 </template>
 
 <script>
-    export default {
-        name: 'App'
-    };
+export default {
+  name: 'App'
+};
 </script>
 
 <style scoped lang="scss">
-    .app{
-        background: #F3F4F6;
-    }
+.app {
+  background: #f3f4f6;
+}
 </style>
